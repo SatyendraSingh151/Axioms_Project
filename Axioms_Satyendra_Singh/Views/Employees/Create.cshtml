@@ -1,0 +1,182 @@
+﻿@model Axioms_Satyendra_Singh.Models.Employee
+@{
+    ViewData["Title"] = "Create Employee";
+}
+<style>
+    body {
+        background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+        font-family: 'Segoe UI', Arial, sans-serif;
+    }
+
+    h1, h4 {
+        color: #23408f;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    hr {
+        border: 1.5px solid #7eddff;
+        margin-bottom: 24px;
+    }
+
+    .row {
+        justify-content: center;
+        margin-top: 32px;
+    }
+
+    .col-md-4 {
+        background: rgba(255,255,255,0.88);
+        border-radius: 18px;
+        box-shadow: 0 8px 16px 0 rgba(44,104,180,0.13), 0 1.5px 2px #a9cfe7;
+        padding: 34px 34px 22px 34px;
+        margin-bottom: 28px;
+        max-width: 440px;
+        border: 1.5px solid #dcf1ff;
+        backdrop-filter: blur(5px);
+    }
+
+    .form-group {
+        margin-bottom: 22px;
+    }
+
+    label.control-label {
+        font-weight: bold;
+        color: #2ca2fa;
+        margin-bottom: 5px;
+        display: block;
+        font-size: 16px;
+    }
+
+    .form-control {
+        border-radius: 9px;
+        border: 1.8px solid #7eddff;
+        padding: 10px 14px;
+        font-size: 17px;
+        background: rgba(244,251,255,0.92);
+        transition: border 0.22s, box-shadow 0.25s;
+        box-shadow: 0 2px 12px rgba(44, 104, 180, 0.07);
+    }
+
+        .form-control:focus {
+            border: 2px solid #23408f;
+            background: #e7f3fe;
+            outline: none;
+            box-shadow: 0 0 10px #bce2fa;
+        }
+
+    .radio-group {
+        display: flex;
+        gap: 24px;
+        margin-bottom: 8px;
+    }
+
+        .radio-group label {
+            color: #23408f;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+    .btn-primary {
+        background-image: linear-gradient(90deg, #3085c3 0%, #176ca1 100%);
+        border: none;
+        border-radius: 9px;
+        padding: 13px 0;
+        color: #fff;
+        font-size: 21px;
+        font-weight: bold;
+        width: 100%;
+        box-shadow: 0 4px 12px #accaf6;
+        cursor: pointer;
+        margin-top: 7px;
+        transition: background 0.18s, box-shadow 0.24s;
+    }
+
+        .btn-primary:hover {
+            background-image: linear-gradient(90deg, #176ca1 0%, #3085c3 100%);
+            box-shadow: 0 6px 16px #2ca2fa;
+        }
+
+    .text-danger {
+        color: #e63946 !important;
+        font-size: 14px;
+        margin-top: 3px;
+        display: block;
+    }
+
+    a {
+        display: inline-block;
+        margin-top: 22px;
+        color: #2ca2fa;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: bold;
+        padding: 8px 20px;
+        border-radius: 9px;
+        background-color: #e3f3ff;
+        border: 1px solid #99cbef;
+        transition: background 0.18s, color 0.18s;
+    }
+
+        a:hover {
+            text-decoration: underline;
+            background-color: #caf0ff;
+            color: #23408f;
+        }
+</style>
+<h1>Create Employee</h1>
+<h4>Employee</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post">
+            @Html.AntiForgeryToken()
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" type="text" class="form-control" placeholder="Enter employee name" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EMail" class="control-label"></label>
+                <input asp-for="EMail" type="email" class="form-control" placeholder="Enter email address" />
+                <span asp-validation-for="EMail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Phone_No" class="control-label"></label>
+                <input asp-for="Phone_No" class="form-control" type="tel" placeholder="Phone No" maxlength="10" pattern="[0-9]{10}" />
+                <span asp-validation-for="Phone_No" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Gender" class="control-label"></label>
+                <div class="radio-group">
+                    <label>
+                        <input asp-for="Gender" type="radio" value="Male" /> Male
+                    </label>
+                    <label>
+                        <input asp-for="Gender" type="radio" value="Female" /> Female
+                    </label>
+                    <label>
+                        <input asp-for="Gender" type="radio" value="Other" /> Other
+                    </label>
+                </div>
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Salary" class="control-label"></label>
+                <input asp-for="Salary" class="form-control" type="number" step="0.01" min="0" placeholder="Salary" />
+                <span asp-validation-for="Salary" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

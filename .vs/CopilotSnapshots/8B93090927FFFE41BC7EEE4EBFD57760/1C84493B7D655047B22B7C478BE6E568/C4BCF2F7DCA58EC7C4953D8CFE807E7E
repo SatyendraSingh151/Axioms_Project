@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Settings";
+}
+
+<style>
+    .settings-card {max-width:820px;margin:18px auto;padding:20px;background:#fff;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06);font-family:Segoe UI, Arial}
+    .settings-row {display:flex;justify-content:space-between;align-items:center;padding:12px 0;border-bottom:1px solid #eef3fb}
+    .btn-clear {background:#e53935;color:#fff;padding:10px 18px;border-radius:8px;border:none;cursor:pointer}
+    .note {color:#1976d2;font-weight:600}
+</style>
+
+<div class="settings-card">
+    <h2>Settings</h2>
+
+    <div class="settings-row">
+        <div>
+            <div class="note">Employees</div>
+            <div>Current employee count: <strong>@ViewBag.EmployeeCount</strong></div>
+        </div>
+        <div>
+            <form asp-action="ClearEmployees" method="post" onsubmit="return confirm('Are you sure you want to delete ALL employees? This action cannot be undone.');">
+                <button type="submit" class="btn-clear">Clear All Employees</button>
+                @Html.AntiForgeryToken()
+            </form>
+        </div>
+    </div>
+
+    <div class="settings-row">
+        <div>
+            <div class="note">Customers</div>
+            <div>Current customer count: <strong>@ViewBag.CustomerCount</strong></div>
+        </div>
+        <div>
+            <form asp-action="ClearCustomers" method="post" onsubmit="return confirm('Are you sure you want to delete ALL customers? This action cannot be undone.');">
+                <button type="submit" class="btn-clear">Clear All Customers</button>
+                @Html.AntiForgeryToken()
+            </form>
+        </div>
+    </div>
+
+    @if (TempData["SettingsMessage"] != null)
+    {
+        <div style="margin-top:14px;color:green;font-weight:600">@TempData["SettingsMessage"]</div>
+    }
+
+    <div style="margin-top:18px;">
+        <a asp-controller="Dash" asp-action="Dashboard">Dashboard</a>
+    </div>
+</div>

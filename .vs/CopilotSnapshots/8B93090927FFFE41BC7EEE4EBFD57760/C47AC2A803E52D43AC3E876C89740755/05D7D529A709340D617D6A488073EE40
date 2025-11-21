@@ -1,0 +1,31 @@
+﻿@model Axioms_Satyendra_Singh.Models.User_Login
+@{
+    ViewData["Title"] = "Login";
+}
+<style>
+    .form-box {
+        width: 350px;
+        margin: 80px auto;
+        padding: 25px;
+        border-radius: 10px;
+        background: rgba(0,0,0,0.2);
+        color: white;
+        backdrop-filter: blur(3px);
+        box-shadow: 0 0 10px black;
+    }
+</style>
+<div class="form-box">
+    <h2>Login</h2>
+    <form method="post" asp-action="Login" asp-controller="Login_Register">
+        <input type="email" name="Email" placeholder="Enter Email" required />
+        <input type="password" name="Password" placeholder="Enter Password" required />
+        <button type="submit">Login</button>
+        <p style="margin-top:10px; text-align:center;">
+            New user? <a href="/Login_Register/Register">Register</a>
+        </p>
+    </form>
+    @if (ViewBag.Msg != null)
+    {
+        <p style="color:yellow; text-align:center;">@ViewBag.Msg</p>
+    }
+</div>

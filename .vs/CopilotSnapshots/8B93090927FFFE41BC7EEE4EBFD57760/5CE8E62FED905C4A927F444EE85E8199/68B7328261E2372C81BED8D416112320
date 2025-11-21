@@ -1,0 +1,141 @@
+﻿@model Axioms_Satyendra_Singh.Models.DashboardViewModel
+@{
+    ViewData["Title"] = "CRM Dashboard";
+}
+<style>
+    body { background: #eef3fb; font-family: Arial, sans-serif; }
+
+    .header { background: #13c9f3; color: #181933; font-size: 32px; font-weight: bold; padding: 16px 32px; border-radius: 6px; margin-bottom: 16px; }
+
+    .sidebar { background: #1d3357; color: #fff; width: 260px; min-height: 70vh; float: left; margin-top: 8px; border-radius: 12px; padding: 24px 14px; }
+        .sidebar h2 { font-size: 20px; margin-top: 0; }
+        .sidebar a { display: block; color: #d4ebff; margin: 12px 0; text-decoration: none; padding: 6px; border-radius: 4px; }
+            .sidebar a:hover { background: #2387f7; color: #fff; }
+
+    .main { margin-left: 300px; padding: 24px; }
+    .card { background: white; border-radius: 8px; padding: 18px; box-shadow: 0 4px 14px rgba(0,0,0,0.06); margin-bottom:18px }
+    .grid { display:block }
+
+    table { width:100%; border-collapse:collapse }
+    th, td { text-align:left; padding:8px; border-bottom:1px solid #eef3fb }
+    th { background:#f5f9ff }
+
+    .search-bar { display:flex; gap:8px; justify-content:flex-end; margin-bottom:12px }
+    .search-input { padding:8px 12px; border-radius:6px; border:1px solid #ccdbe9; width:320px }
+    .search-btn { padding:8px 12px; border-radius:6px; border:none; background:#1976d2; color:#fff; cursor:pointer }
+</style>
+
+<div class="header">CRM Dashboard</div>
+
+<div class="sidebar">
+    <h2>Menu</h2>
+    <a asp-controller="Dash" asp-action="Dashboard">Dashboard</a>
+    <a asp-controller="Setting" asp-action="Settings">Settings</a>
+    <a asp-controller="Employees" asp-action="Index">Employees</a>
+    <a asp-controller="Customers" asp-action="Index">Customers</a>
+    <a asp-controller="Reports" asp-action="Index">Reports</a>
+</div>
+
+<div class="main">
+    <div class="search-bar">
+        <form method="get" asp-action="Dashboard" asp-controller="Dash">
+            <input name="q" value="@Model.SearchQuery" class="search-input" placeholder="Search customers or employees by name..." />
+            <button type="submit" class="search-btn">Search</button>
+            <a class="search-btn" style="background:#6c757d;margin-left:6px;text-decoration:none;display:inline-block;padding:8px 12px;border-radius:6px;color:#fff" href="@Url.Action("Dashboard","Dash")">Clear</a>
+        </form>
+    </div>
+
+    <div class="card">
+        <h3>Report Summary</h3>
+        <div style="display:flex;gap:24px">
+            <div>
+                <div style="font-size:14px;color:#666">Total Customers</div>
+                <div style="font-size:22px;font-weight:700">@Model.Report.Total_Customers</div>
+            </div>
+            <div>
+                <div style="font-size:14px;color:#666">Total Employees</div>
+                <div style="font-size:22px;font-weight:700">@Model.Report.Total_Employees</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h3>Customers</h3>
+        @if (!Model.Customers.Any())
+        {
+            <div>No customers found.</div>
+        }
+        else
+        {
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Gender</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var c in Model.Customers)
+                    {
+                        <tr>
+                            <td>@c.Id</td>
+                            <td>@c.Name</td>
+                            <td>@c.EMail</td>
+                            <td>@c.Phone</td>
+                            <td>@c.Gender</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+
+    <div class="card">
+        <h3>Employees</h3>
+        @if (!Model.Employees.Any())
+        {
+            <div>No employees found.</div>
+        }
+        else
+        {
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Gender</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var e in Model.Employees)
+                    {
+                        <tr>
+                            <td>@e.Id</td>
+                            <td>@e.Name</td>
+                            <td>@e.EMail</td>
+                            <td>@e.Phone_No</td>
+                            <td>@e.Gender</td>
+                            <td>@e.Salary</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>
+
+@if (!string.IsNullOrWhiteSpace(Model.SearchQuery) && !Model.Customers.Any() && !Model.Employees.Any())
+{
+    <script>
+        // show a one-time popup when search yields no results
+        window.addEventListener('DOMContentLoaded', function() {
+            alert('No details found for "' + @Html.Raw(System.Text.Encodings.Web.JavaScriptEncoder.Default.Encode(Model.SearchQuery)) + '"');
+        });
+    </script>
+}

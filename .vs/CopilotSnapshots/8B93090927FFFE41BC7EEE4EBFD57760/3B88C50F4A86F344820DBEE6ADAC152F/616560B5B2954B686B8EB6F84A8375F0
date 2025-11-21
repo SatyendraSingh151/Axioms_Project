@@ -1,0 +1,31 @@
+﻿@model Axioms_Satyendra_Singh.Models.User_Login
+@{
+    ViewData["Title"] = "Register";
+}
+<style>
+    .form-box {
+        width: 480px;
+        margin: 80px auto;
+        padding: 36px;
+        border-radius: 12px;
+        background: rgba(0,0,0,0.35);
+        color: white;
+        backdrop-filter: blur(4px);
+        box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+    }
+    .form-box h2 { text-align:center; margin-bottom:16px }
+    .form-box input[type="text"], .form-box input[type="email"], .form-box input[type="password"] { width:100%; padding:12px 14px; margin:8px 0; border-radius:8px; border:none }
+    .form-box button { width:100%; padding:12px; background:#28a745; color:#fff; border:none; border-radius:8px; font-size:16px }
+</style>
+<div class="form-box">
+    <h2>Register</h2>
+    <form method="post" asp-action="Register" asp-controller="Login_Register">
+        <input name="UserName" type="text" placeholder="Enter Username" required /><br />
+        <input name="Email" type="email" placeholder="Enter Email" required /><br />
+        <input name="Password" type="password" placeholder="Enter Password" required /><br />
+        <button type="submit">Register</button>
+    </form>
+    <div style="margin-top:12px; text-align:center">
+        Already have an account? <a href="/Login_Register/Login">Login</a>
+    </div>
+</div>

@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Axioms_Satyendra_Singh.Models.Report>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!-- Add Back to Dashboard link -->
+<a href="@Url.Action("Dashboard", "Dashboard_Options")"
+   style="display:inline-block;margin-bottom:16px;color:#1976d2;font-weight:bold;text-decoration:underline;font-size:18px;">
+    Back to Dashboard
+</a>
+
+<!-- Add styling -->
+<style>
+    /* ... Paste the style block from step 2 here ... */
+</style>
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Total_Customers)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Total_Employees)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Total_Customers)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Total_Employees)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

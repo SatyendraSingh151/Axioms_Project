@@ -1,0 +1,14 @@
+﻿using Axioms_Satyendra_Singh.Data;
+using Axioms_Satyendra_Singh.Models;
+using Microsoft.AspNetCore.Mvc;
+
+namespace Axioms_Satyendra_Singh.Controllers
+{
+    public class Dash : Controller
+    {
+        public IActionResult Dashboard()
+        {
+            return View();
+        }
+    }
+}

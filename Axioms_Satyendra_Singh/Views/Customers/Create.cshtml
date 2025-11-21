@@ -1,0 +1,112 @@
+﻿@model Axioms_Satyendra_Singh.Models.Customer
+@{
+    ViewData["Title"] = "Create";
+}
+<style>
+    body {
+        background: #f0f4ff;
+        font-family: Arial, sans-serif;
+    }
+
+    h1, h4 {
+        color: #1d3557;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .form-control {
+        border-radius: 6px;
+        padding: 8px 12px;
+        border: 1px solid #6495ed;
+        font-size: 16px;
+    }
+
+    .btn-primary {
+        background-color: #3070bb;
+        border: none;
+        border-radius: 6px;
+        padding: 10px 24px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        width: 100%;
+        cursor: pointer;
+        transition: background 0.2s;
+    }
+
+        .btn-primary:hover {
+            background-color: #184785;
+        }
+
+    .row {
+        justify-content: center;
+    }
+
+    .col-md-4 {
+        background: rgba(225, 236, 252, 0.9);
+        border-radius: 12px;
+        padding: 30px 20px;
+        box-shadow: 0 0 12px #ccc;
+        margin: 20px auto;
+    }
+
+    .text-danger {
+        color: #e63946 !important;
+    }
+
+    a {
+        display: inline-block;
+        margin-top: 15px;
+        color: #2266aa;
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+</style>
+<h1>Create</h1>
+<h4>Customer</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EMail" class="control-label"></label>
+                <input asp-for="EMail" class="form-control" />
+                <span asp-validation-for="EMail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Phone" class="control-label"></label>
+                <input asp-for="Phone" class="form-control" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Gender" class="control-label"></label>
+                <input asp-for="Gender" class="form-control" />
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

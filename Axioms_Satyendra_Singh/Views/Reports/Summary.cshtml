@@ -1,0 +1,31 @@
+@model Axioms_Satyendra_Singh.Models.ReportViewModel
+@{
+    ViewData["Title"] = "Report Summary";
+}
+
+<style>
+    .report-container { max-width:720px; margin:28px auto; padding:0 16px; font-family:Segoe UI, Arial, sans-serif }
+    .report-card { background:#fff;border-radius:10px;padding:20px;box-shadow:0 8px 20px rgba(13,38,71,0.06); }
+    .report-item { display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid #eef3fb;font-size:18px }
+    .report-item:last-child{border-bottom:0}
+    .count { font-weight:700;color:#1976d2 }
+    .back { display:inline-block;margin-top:18px;padding:10px 16px;border-radius:8px;background:#1976d2;color:#fff;text-decoration:none }
+</style>
+
+<div class="report-container">
+    <div class="report-card">
+        <h2>CRM Report Summary</h2>
+        <div class="report-item">
+            <div>Total Customers</div>
+            <div class="count">@Model.Total_Customers</div>
+        </div>
+        <div class="report-item">
+            <div>Total Employees</div>
+            <div class="count">@Model.Total_Employees</div>
+        </div>
+
+        <div style="text-align:right">
+            <a asp-controller="Dash" asp-action="Dashboard" class="back">Dashboard</a>
+        </div>
+    </div>
+</div>

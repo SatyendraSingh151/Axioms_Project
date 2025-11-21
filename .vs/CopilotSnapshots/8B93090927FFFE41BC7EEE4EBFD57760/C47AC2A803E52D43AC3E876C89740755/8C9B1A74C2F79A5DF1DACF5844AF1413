@@ -1,0 +1,12 @@
+﻿using System.Collections.Generic;
+
+namespace Axioms_Satyendra_Singh.Models
+{
+    public class DashboardViewModel
+    {
+        public ReportViewModel Report { get; set; } = new ReportViewModel();
+        public IEnumerable<Customer> Customers { get; set; } = new List<Customer>();
+        public IEnumerable<Employee> Employees { get; set; } = new List<Employee>();
+        public string SearchQuery { get; set; } = string.Empty;
+    }
+}

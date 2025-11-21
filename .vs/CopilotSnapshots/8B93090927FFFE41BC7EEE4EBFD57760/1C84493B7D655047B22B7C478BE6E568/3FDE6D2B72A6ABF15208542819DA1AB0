@@ -1,0 +1,147 @@
+﻿@model IEnumerable<Axioms_Satyendra_Singh.Models.Employee>
+@{
+    ViewData["Title"] = "Employees List";
+}
+<style>
+    body {
+        background: linear-gradient(135deg, #f7fbfc 0%, #cfdef3 100%);
+        font-family: 'Segoe UI', Arial, sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        color: #23408f;
+        font-weight: bold;
+        margin-bottom: 26px;
+        letter-spacing: 1px;
+    }
+
+    p {
+        text-align: right;
+        margin-bottom: 16px;
+        margin-top: 0;
+    }
+
+    a[asp-action="Create"] {
+        background-image: linear-gradient(90deg, #2ca2fa 0%, #176ca1 100%);
+        padding: 10px 28px;
+        color: #fff;
+        border-radius: 8px;
+        font-size: 18px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background 0.2s;
+        margin-right: 10px;
+        display: inline-block;
+        box-shadow: 0 2.5px 10px #c9dfff;
+    }
+
+        a[asp-action="Create"]:hover {
+            background-image: linear-gradient(90deg, #176ca1 0%, #2ca2fa 100%);
+        }
+
+    .btn-dashboard {
+        background: #6c757d;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 8px;
+    }
+
+    .table {
+        width: 98%;
+        margin: 0 auto 36px auto;
+        border-collapse: collapse;
+        box-shadow: 0 0 18px #b3c6e3;
+        background: rgba(255,255,255,0.93);
+        border-radius: 18px 18px 0 0;
+        overflow: hidden;
+    }
+
+        .table thead tr {
+            background-color: #2ca2fa;
+            color: #fff;
+        }
+
+        .table th, .table td {
+            padding: 15px 18px;
+            text-align: center;
+            font-size: 18px;
+            border-bottom: 2px solid #cce6ff;
+        }
+
+        .table tbody tr:nth-child(even) {
+            background-color: #eaf6ff;
+        }
+
+        .table tbody tr:hover {
+            background-color: #cee4fd;
+            transition: 0.2s;
+        }
+
+        .table td:last-child {
+            min-width: 210px;
+        }
+
+    a[asp-action="Edit"], a[asp-action="Details"], a[asp-action="Delete"] {
+        background-color: #2ca2fa;
+        color: #fff !important;
+        padding: 10px 18px;
+        border-radius: 8px;
+        margin: 0 6px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 16px;
+        transition: background 0.21s;
+        display: inline-block;
+        box-shadow: 0 1.5px 6px #f7fcff;
+    }
+
+        a[asp-action="Edit"]:hover {
+            background: #176ca1;
+        }
+
+        a[asp-action="Details"]:hover {
+            background: #48bb78;
+        }
+
+        a[asp-action="Delete"]:hover {
+            background: #e63946;
+        }
+</style>
+<h1>Employees</h1>
+<p>
+    <a asp-action="Create">Add Employee</a>
+    <a asp-controller="Dash" asp-action="Dashboard" class="btn-dashboard">Dashboard</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Name)</th>
+            <th>@Html.DisplayNameFor(model => model.EMail)</th>
+            <th>@Html.DisplayNameFor(model => model.Phone_No)</th>
+            <th>@Html.DisplayNameFor(model => model.Gender)</th>
+            <th>@Html.DisplayNameFor(model => model.Salary)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.EMail)</td>
+                <td>@Html.DisplayFor(modelItem => item.Phone_No)</td>
+                <td>@Html.DisplayFor(modelItem => item.Gender)</td>
+                <td>@Html.DisplayFor(modelItem => item.Salary)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

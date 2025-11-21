@@ -1,0 +1,457 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\views\\reports\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\views\\reports\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\views\\reports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\views\\reports\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\views\\dash\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\views\\dash\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\views\\setting\\settings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\views\\setting\\settings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\views\\login_register\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\views\\login_register\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\migrations\\20251120170926_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\migrations\\20251120170926_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\controllers\\dashcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\controllers\\dashcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\models\\user_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\models\\user_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\views\\login_register\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\views\\login_register\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\controllers\\login_registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\controllers\\login_registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\controllers\\settingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\controllers\\settingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\views\\customers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\views\\customers\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\models\\reportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\models\\reportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|c:\\users\\hp\\source\\repos\\axioms_satyendra_singh\\axioms_satyendra_singh\\migrations\\20251121094500_employeephonegendertostring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA64A5E0-58F4-481B-8476-50614FD3BE87}|Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh.csproj|solutionrelative:axioms_satyendra_singh\\migrations\\20251121094500_employeephonegendertostring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Settings.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Setting\\Settings.cshtml",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Views\\Setting\\Settings.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Setting\\Settings.cshtml",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Views\\Setting\\Settings.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAABBwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T17:18:19.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Summary.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Reports\\Summary.cshtml",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Views\\Reports\\Summary.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Reports\\Summary.cshtml",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Views\\Reports\\Summary.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T17:15:42.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20251120170926_second.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Migrations\\20251120170926_second.cs",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Migrations\\20251120170926_second.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Migrations\\20251120170926_second.cs",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Migrations\\20251120170926_second.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T17:09:26.608Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Employees\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Views\\Employees\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Employees\\Edit.cshtml",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Views\\Employees\\Edit.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T04:53:16.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Login_Register\\Login.cshtml",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Views\\Login_Register\\Login.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Login_Register\\Login.cshtml",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Views\\Login_Register\\Login.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAIBJwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T16:16:28.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T17:43:09.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Employees\\Index.cshtml",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Views\\Employees\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Employees\\Index.cshtml",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Views\\Employees\\Index.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T17:38:43.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Customers\\Index.cshtml",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Views\\Customers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Customers\\Index.cshtml",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Views\\Customers\\Index.cshtml",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T17:39:32.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Controllers\\ReportsController.cs",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Controllers\\ReportsController.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Controllers\\ReportsController.cs",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Controllers\\ReportsController.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T17:15:21.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Reports\\Index.cshtml",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Views\\Reports\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Reports\\Index.cshtml",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Views\\Reports\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T04:53:50.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Dash\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Views\\Dash\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Dash\\Dashboard.cshtml",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Views\\Dash\\Dashboard.cshtml",
+              "ViewState": "AgIAAIsAAAAAAAAAAIBJwI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T15:01:55.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T17:31:46.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Employees\\Create.cshtml",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Views\\Employees\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Employees\\Create.cshtml",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Views\\Employees\\Create.cshtml",
+              "ViewState": "AgIAALQAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-21T02:35:39.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20251121094500_EmployeePhoneGenderToString.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Migrations\\20251121094500_EmployeePhoneGenderToString.cs",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Migrations\\20251121094500_EmployeePhoneGenderToString.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Migrations\\20251121094500_EmployeePhoneGenderToString.cs",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Migrations\\20251121094500_EmployeePhoneGenderToString.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T02:36:13.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Models\\Employee.cs",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Models\\Employee.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T02:32:42.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ReportViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Models\\ReportViewModel.cs",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Models\\ReportViewModel.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Models\\ReportViewModel.cs",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Models\\ReportViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T17:14:27.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Models\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Models\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Models\\DashboardViewModel.cs",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Models\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAMBUwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T17:22:32.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Customers\\Details.cshtml",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Views\\Customers\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Customers\\Details.cshtml",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Views\\Customers\\Details.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T17:08:38.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Employees\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Views\\Employees\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Employees\\Delete.cshtml",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Views\\Employees\\Delete.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T17:08:03.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User_Login.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Models\\User_Login.cs",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Models\\User_Login.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Models\\User_Login.cs",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Models\\User_Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T16:17:02.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Login_Register\\Register.cshtml",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Views\\Login_Register\\Register.cshtml",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Views\\Login_Register\\Register.cshtml",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Views\\Login_Register\\Register.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAIBJwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T16:16:42.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login_RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Controllers\\Login_RegisterController.cs",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Controllers\\Login_RegisterController.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Controllers\\Login_RegisterController.cs",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Controllers\\Login_RegisterController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:59:38.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DashController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Controllers\\DashController.cs",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Controllers\\DashController.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Controllers\\DashController.cs",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Controllers\\DashController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAABRwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:54:34.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SettingController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Controllers\\SettingController.cs",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Controllers\\SettingController.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Controllers\\SettingController.cs",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Controllers\\SettingController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAjwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:56:23.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAwJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T16:10:23.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Program.cs",
+              "RelativeDocumentMoniker": "Axioms_Satyendra_Singh\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\Axioms_Satyendra_Singh\\Axioms_Satyendra_Singh\\Program.cs",
+              "RelativeToolTip": "Axioms_Satyendra_Singh\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAIBJwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:51:16.461Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
